@@ -1,0 +1,14 @@
+[project]
+name = "disk-infogetter"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.12"
+dependencies = [
+    "blake3>=1.0.9",
+    "colorama>=0.4.6",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+]
