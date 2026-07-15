@@ -4,7 +4,7 @@ from core.scanner import Scanner
 from ui.display import display_results, show_duplicates
 from exporters.csv_export import export_csv
 from exporters.json_export import export_json
-from colorama import Fore
+from colorama import Fore, Style
 
 
 def interactive_menu():
